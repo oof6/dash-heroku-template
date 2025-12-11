@@ -63,7 +63,7 @@ tab_selected_style = {
 # 2. DATA LOADING (Old data removed)
 # ------------------------------------------------------------------------------
 # Place your new data loading code here
-df = pd.read_csv('https://raw.githubusercontent.com/oof6/dash-heroku-template/refs/heads/master/final_data_with_demographics.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/oof6/dash-heroku-template/master/final_data_with_demographics.csv')
 # Define your two feature sets
 feature_sets = {
     'Size': ['face_height', 'face_width', 'nose_width', 'mouth_width'],
@@ -119,7 +119,7 @@ RIDGE_ARTIFACTS = {
 # --------------------------------------------------------
 # SHEYI's CODE
 # --------------------------------------------------------
-faces_cut= pd.read_csv("https://raw.githubusercontent.com/oof6/dash-heroku-template/refs/heads/master/final_data_with_demographics.csv")
+faces_cut= pd.read_csv("https://raw.githubusercontent.com/oof6/dash-heroku-template/master/final_data_with_demographics.csv")
 
 # cut golden score into 3 catagories 
 faces_cut["golden_score"]  = pd.qcut(faces_cut["golden_score"], q=3, labels=False)
