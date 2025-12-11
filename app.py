@@ -164,7 +164,7 @@ param_grid = {
     "knn__n_neighbors": range(1, 20, 2),
     "preprocessor__num__imputer__strategy": ["mean", "median"]
 }
-grid = GridSearchCV(pipe, param_grid, cv=4, scoring="balanced_accuracy", n_jobs=-1,error_score='raise')
+grid = GridSearchCV(pipe, param_grid, cv=4, scoring="balanced_accuracy", n_jobs=1,error_score='raise')
 grid.fit(Xknn_train, yknn_train)
 
 # find best k 
