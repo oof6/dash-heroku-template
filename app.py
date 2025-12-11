@@ -1424,8 +1424,8 @@ def update_linear_tab(selected_feature):
     
     summary = html.Div([
         html.H4("Multivariate Ridge Model Performance", style={'color': theme['accent']}),
-        html.P(f"Global Test R²: {R2_TEST:.3f}", style={'fontWeight': 'bold'}),
-        html.P(f"Global Test RMSE: {RMSE_TEST:.3f}"),
+        html.P(f"R²: {R2_TEST:.3f}", style={'fontWeight': 'bold'}),
+        html.P(f"RMSE: {RMSE_TEST:.3f}"),
         html.P(f"Best Alpha: {alpha_selected:.3f}"),
         html.Hr(style={'borderColor': theme['accent']}),
         html.P("Feature Coefficients:", style={'color': theme['accent']}),
