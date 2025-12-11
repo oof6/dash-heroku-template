@@ -353,10 +353,10 @@ app.layout = html.Div(
 
                     
                                     """, style={'color': theme['text']}),
-                                style={'padding': '20px'}
+                                style={width: '50%','padding': '20px'}
                             ),
                             dbc.Col(
-                                html.Img(src='https://raw.githubusercontent.com/oof6/dash-heroku-template/master/assets/Sophie_kim_photo.jpg', style={'width': '50vw', 'height': '50vh'}),
+                                html.Img(src='https://raw.githubusercontent.com/oof6/dash-heroku-template/master/assets/Sophie_kim_photo.jpg', style={'width': '50vw', 'height': 'auto'}),
                                 
                             )
                         ]),
