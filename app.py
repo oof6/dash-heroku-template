@@ -634,6 +634,7 @@ Because our sample size is so small, creating bins was difficult as we needed en
                 # TAB 7 
                 dcc.Tab(label='PCA', value='tab-7', style=tab_style, selected_style=tab_selected_style, children=[
                     html.Br(),
+                    html.H3("How proportional is one's face and what proportions are ideal for the golden ratio?", style={'color': theme['accent']}),
                     html.Div([
                         html.Label("Select Analysis Model:", style={'color': theme['text']}),
                         dcc.Dropdown(
