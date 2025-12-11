@@ -22,6 +22,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer, make_column_selector
 from sklearn.metrics import accuracy_score, balanced_accuracy_score, f1_score, confusion_matrix
 from sklearn.metrics import ConfusionMatrixDisplay
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import RidgeCV, LinearRegression
