@@ -356,7 +356,7 @@ app.layout = html.Div(
                                 style={'padding': '20px'}
                             ),
                             dbc.Col(
-                                html.Img(src='https://raw.githubusercontent.com/oof6/dash-heroku-template/master/assets/Sophie_kim_photo.jpg', style={'width': 'auto', 'height': 'auto'}),
+                                html.Img(src='https://raw.githubusercontent.com/oof6/dash-heroku-template/master/assets/Sophie_kim_photo.jpg', style={'width': '50vw', 'height': '50vh'}),
                                 
                             )
                         ]),
