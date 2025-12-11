@@ -355,7 +355,7 @@ app.layout = html.Div(
                             """, style={'color': theme['text']}),
                         ],style = {'width':'48%', 'float':'left'})
                         html.Div([
-                            html.Img(src='https://raw.githubusercontent.com/oof6/dash-heroku-template/master/assets/Sophie_kim_photo.jpg', style={'width': '50vw', 'height': 'auto'}),
+                            html.Img(src='https://raw.githubusercontent.com/oof6/dash-heroku-template/master/assets/Sophie_kim_photo.jpg', style = {'width':'48%', 'float':'right'}),
                         ])
                         
                         # Github Link
