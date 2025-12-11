@@ -437,8 +437,8 @@ app.layout = html.Div(
                 # TAB 4
                 dcc.Tab(label='Logistic Regression', value='tab-4', style=tab_style, selected_style=tab_selected_style, children=[
                     html.Div([
-                        html.H3("Logistic Regression Model", style={'color': theme['accent']}),
-                        html.P("Predicting golden ratio categories based on facial features", style={'color': theme['text']}),
+                        html.H3("Research Question", style={'color': theme['accent']}),
+                        html.P("How accurately can a logistic regression model classify individuals into golden ratio categories based on their features, and how does the number of bins affect model performance?", style={'color': theme['text']}),
                         html.Br(),
                         
                         # Number of Bins Slider
