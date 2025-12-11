@@ -546,7 +546,7 @@ Because our sample size is so small, creating bins was difficult as we needed en
                         #space
                         html.Div(style={'height': '20px'}),
 
-                        html.Img(src='assets/knn_confusionMatrix.png', style={'width': '60%', 'height': 'auto'}),
+                        #html.Img(src='assets/knn_confusionMatrix.png', style={'width': '60%', 'height': 'auto'}),
 
                     
                         
