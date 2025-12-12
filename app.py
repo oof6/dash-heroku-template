@@ -233,6 +233,7 @@ eyeVsMouth = px.scatter(
     df_cat, x="eye_ratio", y="mouth_nose_ratio",
     title= "Eye Ratio vs Mouth Nose Ratio",
     color="golden_score",
+    category_orders={"golden_score": [0,1,2]},
     color_discrete_sequence=gold_discrete_sequence, 
     symbol="golden_score",
     template='plotly_dark'
@@ -243,6 +244,7 @@ faceVsEye = px.scatter(
     df_cat, x="face_ratio", y="eye_ratio", 
     title="Face Ratio vs Eye Ratio",
     color="golden_score",
+    category_orders={"golden_score": [0,1,2]},
     color_discrete_sequence=gold_discrete_sequence, 
     symbol="golden_score",
     template='plotly_dark'
@@ -253,6 +255,7 @@ faceVsMouth = px.scatter(
     df_cat, x="face_ratio", y="mouth_nose_ratio",
     title="Face Ratio vs Mouth Nose Ratio", 
     color="golden_score",
+    category_orders={"golden_score": [0,1,2]},
     color_discrete_sequence=gold_discrete_sequence, 
     symbol="golden_score",
     template='plotly_dark'
