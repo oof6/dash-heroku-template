@@ -122,7 +122,7 @@ RIDGE_ARTIFACTS = {
 faces_cut= pd.read_csv("https://raw.githubusercontent.com/oof6/dash-heroku-template/master/final_data_with_demographics.csv")
 
 # cut golden score into 3 catagories 
-faces_cut["golden_score"]  = pd.qcut(faces_cut["golden_score"], q=3, labels=False)
+faces_cut["golden_score"]  = pd.qcut(faces_cut["golden_score"], q=3, labels=["low score","medium score","high score"])
 
 # predictors and predictees
 X_knn = faces_cut[["face_ratio", "race", "mouth_nose_ratio","eye_ratio", "gender" ]]
